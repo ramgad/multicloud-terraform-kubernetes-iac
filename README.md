@@ -36,7 +36,7 @@ To run the shell script you must navigate to the scripts folder and run
     git clone https://github.com/ramgad/multicloud-terraform-kubernetes-iac.git
 ```
 
-## Guides to install Kubernetes with Portworx
+## Guides to install Kubernetes on different Clouds
 
 - [AWS IAM Policy provisioning Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/aws-admin/README.md)
 - [AWS Kubenetes + Portworx Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/awsEKS/README.md)
