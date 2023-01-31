@@ -1,4 +1,4 @@
-# Step by Step Guide to install AWS EKS with k8sproject
+# Step by Step Guide to install AWS EKS with k8s project
 
 ## PreRequisite:
 1. Please see docs/aws-admin/README.md for instruction on provisioning the IAM policies required for creating the cluster
@@ -45,12 +45,12 @@ cat ~/.aws/credentials
 
 ```
 [default]
-aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+aws_access_key_id=EXAMPLE-AKIAIOSFODNN7-EXAMPLE
+aws_secret_access_key=EXAMPLEKEY-UtnFEMI/K7MDENG/bPxRfiCY-EXAMPLEKEY
 
 [SpearAhead-dev]
-aws_access_key_id=ALIATHISODNN7EXAMPLE
-aws_secret_access_key=wJalrXUtnFEMI/K7EXXY/bPxRfiCYEXAMPLEKEY
+aws_access_key_id=EXAMPLE-AKIAIOSFODKX8-EXAMPLE
+aws_secret_access_key=EXAMPLEKEY-wJalrXUtnFEMI/K7EXXY/bPxRfiCY-EXAMPLEKEY
 
 ```
 
@@ -94,11 +94,11 @@ You should be seeing similar files and folder structure relative to where you ha
 
 ```
 bash-3.2$ pwd
-/ramgad/multicloud-terraform-kubernetes-iac/terraform-live/aws/896853494200/us-west-2
+/ramgad/multicloud-terraform-kubernetes-iac/terraform-live/aws/89200-SADEV/us-west-2
 bash-3.2$
 
 
-/ramgad/multicloud-terraform-kubernetes-iac/terraform-live/aws/896853494200/us-west-2
+/ramgad/multicloud-terraform-kubernetes-iac/terraform-live/aws/89200-SADEV/us-west-2
 bash-3.2$ ls -alrt
 total 64
 drwxr-xr-x   3 t_gadar  staff    96 Jan  3 19:48 ..
@@ -283,7 +283,7 @@ cd aws-<accountnumber>/<region>
 
 The folder should have the following files:
 
-~/SpearAhead/terraform-iac/terraform-live/aws-077119361744/us-west-1 master  :ll
+~/SpearAhead/terraform-iac/terraform-live/aws-061744/us-west-1 master  :ll
 total 80
 -rw-r--r--  1 t_gadar  staff   235 Dec 15 11:57 main.tf
 -rw-r--r--  1 t_gadar  staff  1123 Dec 15 11:57 network.tf
