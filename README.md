@@ -7,7 +7,7 @@
 
 Terraform-iac contains step by step guide to provision Kubernetes clusters on public code using the terraform code (library) and shell scripts
 
-This repo helps in creating the Kubernetes cluster with Portworx embedded on various cloud providers such as aws, azure, gcloud with portworx installed
+This repo helps in creating the Kubernetes cluster on various cloud providers such as aws, azure, gcloud with few test services installed
 
 ## PreRequisites
 
@@ -39,11 +39,11 @@ To run the shell script you must navigate to the scripts folder and run
 ## Guides to install Kubernetes on different Clouds
 
 - [AWS IAM Policy provisioning Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/aws-admin/README.md)
-- [AWS Kubenetes + Portworx Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/awsEKS/README.md)
-- [Google Kubernetes + Portworx Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/gcloudGKE/README.md)
-- [Azure Kubernetes + Portworx Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/AzureAKS/README.md)
+- [AWS Kubenetes + Storage Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/awsEKS/README.md)
+- [Google Kubernetes + Storage Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/gcloudGKE/README.md)
+- [Azure Kubernetes + Storage Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/AzureAKS/README.md)
 - [Virtual Machines Kubernetes + Portworx Setup Guide](https:/ramgad/github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/kubernetesOnVM/README.md)
-- [Bare Metal Kubernetes + Portworx Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/baremetal/README.md)
+- [Bare Metal Kubernetes + Storage Setup Guide](https://github.com/ramgad/multicloud-terraform-kubernetes-iac/blob/master/docs/baremetal/README.md)
 
 ## References
 
