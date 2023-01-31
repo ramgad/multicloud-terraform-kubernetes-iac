@@ -90,7 +90,7 @@ k8s_version                    = "1.21.7"
 azure_instance_type            = "standard_e4-2ds_v5"
 number_of_nodes                = "3"
 
-subscription_id                = "6bz78c23-29cd-4567-8ab1-64d120abcd21"
+subscription_id                = "Example-29cd-4567-8ab1-1234abcd54321"
 service_principle_id           = "SvcPID"    //reads from az cli login user authentication
 service_principle_key          = "SvcPKEY"   //reads from az cli login user authentication
 tenant_id                      = "SvcTID"    //reads from az cli login user authentication
