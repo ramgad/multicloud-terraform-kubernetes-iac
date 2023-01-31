@@ -1,5 +1,7 @@
 <img src="icon.png" align="right" />
 
+Note: Not actively kept up with new software releases and changes
+
 # Terraform-iac README
 
 > Infrastructure as Code - Terraform to provision Kubernetes on public cloud environments
